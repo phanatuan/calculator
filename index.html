@@ -20,12 +20,15 @@
   <body>
     <div class="container mx-auto my-auto fill">
       <!-- <nav class="nav-bar bg-light border-bottom">Helooo</nav> -->
+      <div class="container my-auto">
       <div class="display-4 text-center">My Dear Calculator</div>
       <div
         id="calculator"
-        class="py-auto mx-auto my-auto bg-dark d-flex flex-column"
+        class="py-auto mx-auto my-4 bg-dark d-flex flex-column border-top-0"
       >
-        <div id="output" class="bg-dark text-white text-right">Helooo</div>
+        <div id="output" class="bg-dark text-white text-right py-2 pr-2">
+          Helooo
+        </div>
 
         <div id="sign" class="rounded-0 bg-light d-flex flex-row m-0 p-0">
           <div class="btn col-3 border-right m-0 p-0 rounded-0">+</div>
@@ -42,18 +45,18 @@
                     d-flex flex-row flex-wrap align-items-stretch"
             >
               <!-- Number Keys -->
-				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0">1</div>
-				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0">2</div>
-				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0">3</div>
-				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0">4</div>
-				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0">5</div>
-				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0">6</div>
-				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0">7</div>
-				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0">8</div>
-				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0">9</div>
-				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0">0</div>
-				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0">.</div>
-				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0">C</div>
+				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0 py-1">1</div>
+				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0 py-1">2</div>
+				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0 py-1">3</div>
+				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0 py-1">4</div>
+				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0 py-1">5</div>
+				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0 py-1">6</div>
+				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0 py-1">7</div>
+				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0 py-1">8</div>
+				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0 py-1">9</div>
+				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0 py-1">0</div>
+				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0 py-1">.</div>
+				  <div class="btn col-4 border-right border-bottom m-0 p-0 rounded-0 py-1">C</div>
             </div>
             <div class="col-3 bg-primary d-flex m-0 p-0 bg-warning">
               <div class="col-12 btn center my-auto">=</div>
@@ -68,6 +71,7 @@
         Try to implement Time Travel Feature: (Only captures when user clicks '=')
         <ul id="step"></ul>
       </div>
+    </div>
     </div>
 
     <script

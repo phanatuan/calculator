@@ -1,20 +1,37 @@
-* { 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-    font-size: 14px 
-  }
-
-#calculator { 
-    border-radius: 10px;
-    height: 200px;
-    width: 300px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
-#number-keys { 
-    height: 100%;
+#calculator {
+  border-radius: 5px;
+  height: 200px;
+  width: 400px;
 }
 
-.fill { 
-    height: 100%;
+#number-keys {
+  height: 100%;
+}
+
+#sign {
+  height: 50px;
+}
+
+.fill {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+}
+
+#output {
+  border-radius: 5px;
+  height: 50px;
+}
+
+.btn {
+  height: 35px;
 }
